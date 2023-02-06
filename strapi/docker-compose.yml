@@ -12,6 +12,11 @@ services:
       DATABASE_USERNAME: postgres
       DATABASE_PASSWORD: postgres
       NODE_ENV: development
+      HOST: 0.0.0.0
+      PORT: 1337
+      APP_KEYS: key0,key1,key2
+      API_TOKEN_SALT: hhEUlSfoyS9Sd7ovr2Ft9Q==
+      ADMIN_JWT_SECRET: tDKbd7vf8QSYiL/zZXY1fQ==
     working_dir: /home/node/app/
     command: sh -c "yarn install && yarn develop"
     depends_on:

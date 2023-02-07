@@ -1,6 +1,6 @@
 # CMS Benchmark
 
-This repository provide a simple way to start and try some CMS.
+This repository provide a simple way to start and try some CMS. Docker is the only prerequisite ([Get Docker](https://docs.docker.com/get-docker/)).
 
 ## Strapi
 
